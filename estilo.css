@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&family=Raleway:wght@600;800&display=swap');
+
+        body {
+            margin:0px;
+            padding:0px;
+            background: #2D2D2D;
+        }
+        header {
+           display: flex;
+           flex-direction: column;
+           margin-top: 40px;
+           margin-bottom: 15px;
+           align-items: center;
+           color: white;
+           font-family: 'poppins';
+           font-size: 22px;
+        }
+        header img{
+            max-width: 100px;
+        }
+        form {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            font-family: 'raleway';
+            font-size: 18px;
+            font-weight: 600;
+            color: white;
+        }
+    .formpart input {
+        display: flex;
+        flex-direction: row;
+        width: 424px;
+        padding: 11px 13px;
+        border-radius: 10px;
+        margin-top: 10px;
+        margin-bottom: 20px;
+       }
+       .formpart input::placeholder {
+        background: rgba(255, 255, 255, 0.9);
+       }
+    input[type="submit"]{
+        display: flex;
+        flex-direction: row;
+        width: 446px;
+        background-color: #0C70F2;
+        border-radius: 10px;
+        height: 52px;
+
+        font-family: 'raleway';
+        justify-content: center;
+        font-size: 20px;
+        color: white;
+        margin-top: 10px;
+        cursor: pointer;
+    }
